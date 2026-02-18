@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    background-image: url("assets/background/textBackground.png");
+    background-image: url("assets/background/mapBackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,8 +25,8 @@ body {
 
 .button {
     position: absolute;
-    top: 80%;
-    left: 22%;
+    top: 70%;
+    left: 52%;
     transform: translateX(-50%);
     cursor: pointer;    
     -webkit-tap-highlight-color: transparent;
@@ -130,17 +130,3 @@ body {
     transform: translateX(-50%);
 }
 
-.title {    
-    position: absolute;
-    top: 5%;
-    left: 77%;
-    transform: translateX(-50%);
-
-}
-
-.text{
-    position: absolute;
-    top: 24%;
-    left: 50%;
-    transform: translateX(-50%);
-}
